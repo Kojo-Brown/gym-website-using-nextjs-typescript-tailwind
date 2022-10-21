@@ -1,4 +1,5 @@
 import {Html, Head, Main, NextScript} from 'next/document'
+import Script from 'next/script'
 
 const Document = () => {
   return (
@@ -11,6 +12,7 @@ const Document = () => {
       <body>
         <Main />
         <NextScript />
+        <Script src="./TW-ELEMENTS-PATH/dist/js/index.min.js"/>
       </body>
     </Html>
   )

@@ -1,7 +1,14 @@
 import type { NextPage } from 'next'
 import Head from 'next/head'
+import FitYourBody from '../components/FitYourBody/FitYourBody'
+import Footer from '../components/Footer/Footer'
 import Hero from '../components/Hero/Hero'
+import MiniAdvert from '../components/MiniAdvert/MiniAdvert'
 import Navbar from '../components/Navbar/Navbar'
+import OurSolution from '../components/OurSolution/OurSolution'
+import OurTrainers from '../components/OurTrainers/OurTrainers'
+import PricingPlan from '../components/PricingPlan/PricingPlan'
+import Testimonial from '../components/Testimonial/Testimonial'
 
 const Home: NextPage = () => {
   return (
@@ -12,8 +19,15 @@ const Home: NextPage = () => {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <Navbar />
+      {/* <Navbar /> */}
       <Hero />
+      <MiniAdvert />
+      <FitYourBody />
+      <OurSolution />
+      <PricingPlan />
+      <OurTrainers />
+      <Testimonial />
+      {/* <Footer /> */}
     </div>
   )
 }

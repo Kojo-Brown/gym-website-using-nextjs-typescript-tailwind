@@ -3,6 +3,7 @@ module.exports = {
   content: [
     "./pages/**/*.{js,ts,jsx,tsx}",
     "./components/**/*.{js,ts,jsx,tsx}",
+    './node_modules/tw-elements/dist/js/**/*.js'
   ],
   theme: {
     screens: {
@@ -17,6 +18,13 @@ module.exports = {
       'xl': '1200px',
       // => @media (min-width: 1440px) { ... }
     },
+    // extend: {
+    //   backgroundImage: {
+    //     'jenny': "url('./assets/woman.webp')"
+    //   }
+    // }
   },
-  plugins: [],
+  plugins: [
+    require('tw-elements/dist/plugin')
+  ],
 }
