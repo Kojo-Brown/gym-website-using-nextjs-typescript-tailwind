@@ -1,3 +1,4 @@
+import Image from "next/image";
 import React from "react";
 import { FaQuoteRight } from "react-icons/fa";
 
@@ -21,7 +22,7 @@ const Testimonial = () => {
             </p>
             <div className="flex items-center justify-center my-5 gap-4">
               <div className="">
-                <img
+                <Image
                   className="w-20 h-20 rounded-full"
                   src="https://images.unsplash.com/photo-1570295999919-56ceb5ecca61?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=880&q=80"
                   alt=""
@@ -124,7 +125,7 @@ const Testimonial = () => {
                 color="white"
                 className="absolute rounded-full py-3 right-10 bottom-44 bg-orange-500 w-12 h-12"
               /> */}
-              <img
+              <Image
                 src="https://mdbcdn.b-cdn.net/img/Photos/Avatars/img%20(2).webp"
                 className="rounded-lg w-60 h-52 object-cover shadow-lg"
                 alt="smaple image"
@@ -143,7 +144,7 @@ const Testimonial = () => {
             </p>
             <div className="flex items-center justify-center my-5 gap-4">
               <div className="">
-                <img
+                <Image
                   className="w-20 h-20 rounded-full"
                   src="https://images.unsplash.com/photo-1570295999919-56ceb5ecca61?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=880&q=80"
                   alt=""
@@ -246,7 +247,7 @@ const Testimonial = () => {
                 color="white"
                 className="absolute rounded-full py-3 right-10 bottom-44 bg-orange-500 w-12 h-12"
               /> */}
-              <img
+              <Image
                 src="https://mdbcdn.b-cdn.net/img/Photos/Avatars/img%20(31).webp"
                 className="rounded-lg w-60 h-52 object-cover shadow-lg"
                 alt="smaple image"
@@ -265,7 +266,7 @@ const Testimonial = () => {
             </p>
             <div className="flex items-center justify-center my-5 gap-4">
               <div className="">
-                <img
+                <Image
                   className="w-20 h-20 rounded-full"
                   src="https://images.unsplash.com/photo-1570295999919-56ceb5ecca61?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=880&q=80"
                   alt=""
@@ -368,7 +369,7 @@ const Testimonial = () => {
                 color="white"
                 className="absolute rounded-full py-3 right-10 bottom-44 bg-orange-500 w-12 h-12"
               /> */}
-              <img
+              <Image
                 src="https://mdbcdn.b-cdn.net/img/Photos/Avatars/img%20(10).webp"
                 className="rounded-lg w-60 h-52 object-cover shadow-lg"
                 alt="smaple image"

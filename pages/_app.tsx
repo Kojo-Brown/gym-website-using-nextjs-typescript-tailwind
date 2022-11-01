@@ -7,7 +7,7 @@ import Footer from "../components/Footer/Footer";
 function MyApp({ Component, pageProps }: AppProps) {
   useEffect(() => {
     const use = async () => {
-      (await import("tw-elements")).default;
+      return (await import("tw-elements")).default;
     };
     use();
   }, []);
