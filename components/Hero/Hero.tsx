@@ -2,8 +2,6 @@ import Image from "next/image";
 import React from "react";
 import HeroPicture from "../../assets/hero.png";
 import { BsPlayFill } from "react-icons/bs";
-import { GoLocation } from "react-icons/go";
-import IntroVideo from "../../assets/intro.mp4";
 import CountUp from 'react-countup';
 
 const Hero = () => {
