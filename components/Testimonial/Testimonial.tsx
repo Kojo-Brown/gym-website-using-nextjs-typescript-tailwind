@@ -23,7 +23,9 @@ const Testimonial = () => {
             <div className="flex items-center justify-center my-5 gap-4">
               <div className="">
                 <Image
-                  className="w-20 h-20 rounded-full"
+                  width={50}
+                  height={50}
+                  className="rounded-full"
                   src="https://images.unsplash.com/photo-1570295999919-56ceb5ecca61?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=880&q=80"
                   alt=""
                 />
@@ -126,6 +128,8 @@ const Testimonial = () => {
                 className="absolute rounded-full py-3 right-10 bottom-44 bg-orange-500 w-12 h-12"
               /> */}
               <Image
+                width={100}
+                height={100}
                 src="https://mdbcdn.b-cdn.net/img/Photos/Avatars/img%20(2).webp"
                 className="rounded-lg w-60 h-52 object-cover shadow-lg"
                 alt="smaple image"
@@ -145,6 +149,8 @@ const Testimonial = () => {
             <div className="flex items-center justify-center my-5 gap-4">
               <div className="">
                 <Image
+                  width={50}
+                  height={50}
                   className="w-20 h-20 rounded-full"
                   src="https://images.unsplash.com/photo-1570295999919-56ceb5ecca61?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=880&q=80"
                   alt=""
@@ -248,6 +254,8 @@ const Testimonial = () => {
                 className="absolute rounded-full py-3 right-10 bottom-44 bg-orange-500 w-12 h-12"
               /> */}
               <Image
+                width={100}
+                height={100}
                 src="https://mdbcdn.b-cdn.net/img/Photos/Avatars/img%20(31).webp"
                 className="rounded-lg w-60 h-52 object-cover shadow-lg"
                 alt="smaple image"
@@ -267,6 +275,8 @@ const Testimonial = () => {
             <div className="flex items-center justify-center my-5 gap-4">
               <div className="">
                 <Image
+                  width={50}
+                  height={50}
                   className="w-20 h-20 rounded-full"
                   src="https://images.unsplash.com/photo-1570295999919-56ceb5ecca61?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=880&q=80"
                   alt=""
@@ -370,6 +380,8 @@ const Testimonial = () => {
                 className="absolute rounded-full py-3 right-10 bottom-44 bg-orange-500 w-12 h-12"
               /> */}
               <Image
+                width={100}
+                height={100}
                 src="https://mdbcdn.b-cdn.net/img/Photos/Avatars/img%20(10).webp"
                 className="rounded-lg w-60 h-52 object-cover shadow-lg"
                 alt="smaple image"
